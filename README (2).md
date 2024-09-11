@@ -24,11 +24,9 @@ Para poder realizar las distitnas pruebas es necesario descargar todas estas her
 
 ## Contenido
 data.py: contiene todos los datos necesarios para rellenar los campos de solicitudes y la URL necesaria.
-main.py: consta de dos Pages, UrbanRoutesPages y TestUrbanRoutes:
-- UrbanRoutesPages contiene todos los métodos que se usarán para llevar a cabo los Test.
-- TestUrbanRoutes contiene todos los Tests llevados a cabo, los mismos constan en 8 tests. 
-
-Locators.py: consta de todos los localizadores utilizados para los elementos de la página web.
+main.py: contiene todos los Tests llevados a cabo, los mismos constan en 8 tests
+helpers.py: contiene todos los métodos que se usarán para llevar a cabo los Test.
+UrbanRoutesPage.py: consta de todos los localizadores utilizados para los elementos de la página web.
     
 ## Uso
 El proyecto incluye varias funciones y pruebas. Aquí hay un resumen de las pruerbas a realizar:
@@ -50,5 +48,8 @@ El proyecto incluye varias funciones y pruebas. Aquí hay un resumen de las prue
 8. **Aparece el modal para buscar un taxi.**
   
 Se tienen 8 pruebas en este proyecto, se deben de correr todas estas para encontrar las que cuentan con algún error
+
+## Paso a paso
+Una vez descargados los programas y paquetes mencionados en el apartado anterior, vaya a "pycharm" y abra el archivo "main.py" consistente en 8 pruebas. Es muy fácil de ejecutar: simplemente debe que hacer clic en "Run" (botón presente en la parte superior derecha de su pantalla). El mismo programa dará los resultados de las mismas estableciendo si su resultado es positivo (resultado esperado coincide con el resultado actual) o negativo (si su resultado esperado es distinto al actual).
 
 Para contribuir, favor de  revisar la documentación fuente en [apiDoc].
